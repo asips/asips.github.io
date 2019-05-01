@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 
-	<body>
+	<body onload="passWord()">
 
 		<div class="fh5co-loader"></div>
 
@@ -54,7 +54,7 @@
 									<li class="active"><a href="data.html">Research Data</a></li>
 									<li><a href="about.html">About</a></li>
 									<li><a href="contact.html">Contact</a></li>
-									<li class="btn-cta"><a href="index.html"><span>Log Out</span></a></li>
+									<li class="btn-cta"><a href="index.html" id="login"><span>Log Out</span></a></li>
 								</ul>
 							</div>
 						</div>
@@ -182,6 +182,7 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
 	<script src="js/simplyCountdown.js"></script>
+	<script src="js/login.js"></script>
 	<script src="js/main.js"></script>
 	<script>
 		var d = new Date(new Date().getTime() + 1000 * 120 * 120 * 2000);
